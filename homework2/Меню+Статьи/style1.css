@@ -1,0 +1,28 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: url(https://www.triptobudapest.hu/wp-content/uploads/2021/05/Green-background-from-Vecteezy.jpg);
+}
+
+.menu {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(243, 241, 235, .5);
+    border: 4px solid rgb(12, 173, 66);
+    border-radius: 9px;
+    
+}
+
+li {
+    line-height: 40px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+li:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}

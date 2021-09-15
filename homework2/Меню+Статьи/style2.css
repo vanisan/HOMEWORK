@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(183, 241, 224);
+}
+
+p {
+    max-width: 101ch;
+    margin-left: 50px;
+    text-indent: 20px; 
+    border: cornflowerblue 4px solid;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: cornsilk;
+}
+
+#home {
+    background-color: rgb(243, 145, 164);
+}
