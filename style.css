@@ -1,3 +1,21 @@
 body {
     background-color: rgb(80, 3, 124);
 }
+
+.container {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(218, 253, 255, .7);
+    border-radius: 10px;
+}
+
+li {
+    border: 3px gray solid;
+    height: 40px;
+    margin-top: 10px;
+}
+li:hover {
+    transition: 0.8s;
+    transform: scale(1.15);
+}
