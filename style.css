@@ -1,5 +1,14 @@
 body {
-    background-color: rgb(80, 3, 124);
+    background: url(/wallpaperflare.com_wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -18,9 +27,11 @@ li {
     height: 40px;
     width: 150px;
     margin-top: 10px;
+    padding-top: 10px;
     list-style-type: none;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
 }
 li:hover {
     transition: 0.8s;
@@ -31,3 +42,4 @@ li:hover {
     margin-left: 50px;
     margin-top: 30px;
 }
+
