@@ -3,19 +3,31 @@ body {
 }
 
 .container {
+    display: flex;
     margin: auto;
     width: 500px;
-    height: 300px;
+    min-height: 300px;
     background-color: rgb(218, 253, 255, .7);
     border-radius: 10px;
+    padding-top: 30px;
 }
 
 li {
-    border: 3px gray solid;
+    background-color: rgb(216, 253, 253);
+    border-radius: 20px;
     height: 40px;
+    width: 150px;
     margin-top: 10px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
 }
 li:hover {
     transition: 0.8s;
     transform: scale(1.15);
+}
+
+.img {
+    margin-left: 50px;
+    margin-top: 30px;
 }
