@@ -18,16 +18,17 @@ a {
 .container {
     display: flex;
     margin: auto;
-    width: 700px;
-    min-height: 300px;
+    width: 660px;
+    min-height: 500px;
     background-color: rgb(218, 253, 255, .25);
     border-radius: 10px;
     padding-top: 30px;
     box-shadow: 1px 1px 8px;
+    backdrop-filter: blur(5px);
 }
 
 li {
-    background-color: rgb(213, 143, 223, .3);
+    background-color: rgba(143, 204, 223, 0.3);
     border-radius: 10px;
     height: 40px;
     width: 300px;
@@ -47,7 +48,7 @@ li:hover {
 }
 
 .img {
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 30px;
 }
 
