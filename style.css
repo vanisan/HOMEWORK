@@ -18,9 +18,9 @@ a {
 .container {
     display: flex;
     margin: auto;
-    width: 660px;
+    width: 700px;
     min-height: 500px;
-    background-color: rgb(218, 253, 255, .25);
+    background-color: rgb(218, 253, 255, .20);
     border-radius: 10px;
     padding-top: 30px;
     box-shadow: 1px 1px 8px;
@@ -28,10 +28,10 @@ a {
 }
 
 li {
-    background-color: rgba(143, 204, 223, 0.3);
+    background-color: rgba(199, 143, 231, 0.25);
     border-radius: 10px;
     height: 40px;
-    width: 300px;
+    width: 320px;
     margin-top: 10px;
     padding-top: 10px;
     list-style-type: none;
