@@ -1,5 +1,6 @@
  * {
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 body{
@@ -48,7 +49,7 @@ main {
 
 footer {
     margin: auto;
-    height: 200px;
+    height: 150px;
     width: 1900px;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -176,10 +177,7 @@ li {
 
 .copyright {
     color: rgb(255, 255, 255);
-    margin-top: 30px;
     margin: auto;
-    align-items: center;
-    justify-content: center;
 }
 
 .subtext2 {
@@ -192,6 +190,7 @@ li {
     margin: auto;
     margin-left: -610px ;
     padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 .tag {
@@ -215,7 +214,21 @@ li {
     font-size: 16px;
     width: 700px;
     margin-left: -8px;
-    font-weight: 800;
-    color: rgb(190,7,111);}
+    font-weight: 600;
+    color: rgb(190,7,111);
+}
+
+.sublinks1 {
+    display: flex;
+    margin-bottom: -80px;
+    margin-top: 40px;
+}
+
+.sublinks2 {
+    color: rgb(190,7,111); 
+    font-size: medium;
+    font-weight: 600;
+}
+
 
 
