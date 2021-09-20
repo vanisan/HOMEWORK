@@ -1,5 +1,5 @@
  * {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
 
@@ -97,7 +97,7 @@ aside {
 a {
     display: block;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 22px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -185,12 +185,12 @@ li {
     color: rgb(255, 255, 255);
     width: 180px;
     height: 24px;
-    padding-top: 8px;
+    padding-top: 4px;
     text-align: center;
     margin: auto;
     margin-left: -610px ;
     padding-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 52px;
 }
 
 .tag {
@@ -230,5 +230,9 @@ li {
     font-weight: 600;
 }
 
+.aside1 {
+    padding-bottom: 20px;
+    border-bottom: rgb(221, 221, 221) 2px solid;
+}
 
 
