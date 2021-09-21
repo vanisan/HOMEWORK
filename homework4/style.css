@@ -1,6 +1,7 @@
 body {
     background-color: rgb(18,17,22);
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -9,42 +10,50 @@ footer {
     height: 400px;
     margin: 0 auto;
     justify-content: center;
-    text-align: center;
-    padding-bottom: 20px;
+    text-align: center;   
 }
 
 img {
+    margin: auto;
     margin-top: 120px;
-    margin-bottom: 55px;
+    margin-bottom: 26px;
 }
 
 img:hover {
-    background-color: thistle;
+    background-color: rgb(255, 255, 255);
     transform: scale(1.4);
     transition: 1s;
     border-radius: 7px;
 }
 
 h3 {
-    color: thistle;
+    color: rgb(255, 255, 255);
     height: 14px;
-    width: 230px;
+    width: 192px;
     margin: auto;
-    border-bottom: 1px white solid;
+    margin-top: 6px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
     padding-bottom: 20px;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
 }
 p {
-    color: thistle;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 img {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .logos {
-    margin-top: -100px;
-    
+    margin-top: -102px;
+    margin-bottom: 36px;
 }
 
 .kasper {
