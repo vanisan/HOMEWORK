@@ -1,62 +1,64 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: rgb(18,17,22);
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
 }
-
 footer {
-    max-width: 90%;
-    width: 1900px;
-    height: 400px;
+    width: 270px;
     margin: 0 auto;
-    justify-content: center;
-    text-align: center;   
-}
-
-img {
-    margin: auto;
-    margin-top: 120px;
-    margin-bottom: 26px;
-}
-
-img:hover {
-    background-color: rgb(255, 255, 255);
-    transform: scale(1.4);
-    transition: 1s;
-    border-radius: 7px;
-}
-
-h3 {
-    color: rgb(255, 255, 255);
-    height: 14px;
-    width: 192px;
-    margin: auto;
-    margin-top: 6px;
-    border-bottom: 1px rgb(255, 255, 255) solid;
-    padding-bottom: 20px;
-    letter-spacing: 1.1px;
-    font-weight: 300;
-    font-size: 16px;
     text-align: center;
 }
-p {
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+
+.logo {
+    margin-bottom: 44px;
 }
 
-img {
-    padding-left: 11px;
-    padding-right: 11px;
+h5 {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 15px;
+    width: 220px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 .logos {
-    margin-top: -102px;
-    margin-bottom: 36px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+img {
+    padding: 0px 14px 0px 14px;
+}
+
+.logos>a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    margin: 0 auto;
+    padding-top: 82px;
 }
 
 .kasper {
+    color: rgb(25,200,250);
     text-decoration: none;
-    color: rgb(51, 173, 255);
 }
