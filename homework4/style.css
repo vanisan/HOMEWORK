@@ -94,11 +94,11 @@ h5 {
 }
 
 .logos {
-    padding-top: 18px;
+    padding-top: 14px;
 }
 
 .logos img {
-    padding: 0px 14px 0px 14px;
+    padding: 8px 14px 8px 14px;
 }
 
 .logos img:hover {
@@ -109,7 +109,7 @@ h5 {
 }
 
 .kasper {
-    padding-top: 86px;
+    padding-top: 74px;
     font-weight: 600;
 }
 
