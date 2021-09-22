@@ -59,6 +59,7 @@ body {
     vertical-align: middle;
 }
 
+}
 .feature_title {
     font-size: 14px;
     text-transform: uppercase;
@@ -98,6 +99,13 @@ h5 {
 
 .logos img {
     padding: 0px 14px 0px 14px;
+}
+
+.logos img:hover {
+    background-color: rgb(25, 200, 250);
+    transition: 0.5s;
+    transform: scale(1.2);
+    border-radius: 6px;
 }
 
 .kasper {
