@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    padding-top: 140px;
+}
+
+.container {
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}       
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-image: url(sprites.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.icon_anchor {
+    background-position: 6px 8px;
+}
+
+.icon_dev {
+    background-position: -127px 8px;
+}
+
+.icon_graphic {
+    background-position: -272px 8px;
+}
+
+.icon_illustrations {
+    background-position: -417px 8px;
+}
+
+.card1:hover .icon_anchor{
+    background-position: 6px -122px;
+}
+
+.card2:hover .icon_dev{
+    background-position: -127px -122px;
+}
+
+.card3:hover .icon_graphic{
+    background-position: -272px -122px;
+}
+
+.card4:hover .icon_illustrations{
+    background-position: -417px -122px;
+}
+
+.main {
+    font-size:0;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    padding-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height: 420px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(204, 204, 204);
+    border-right: 0px;
+}
+
+li:last-child{
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+ul li:hover{
+    background-color: rgb(15, 200, 203);
+    color: rgb(252, 252, 252);
+}
+
+ul li:hover p {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    vertical-align: middle;
+    height: 80px;
+    padding-top: 36px;
+    line-height: 22px;
+    font-size: 22px;
+}
+
+p {
+    color: rgb(136, 136, 136);
+    padding-top: 32px;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 170px;
+}
+
+h4 {
+    color: rgb(122, 122, 122);
+    margin: 0 auto;
+    width: 130px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: rgb(15, 200, 203);
+    text-shadow: rgb(128, 128, 128) 2px 2px 2px;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto;
+    font-weight: 800;
+    letter-spacing: 6px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(175, 175, 175);
+    text-align: center;
+    margin: 0 auto;
+    width: 460px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 106px;
+}
