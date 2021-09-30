@@ -18,7 +18,11 @@ body {
     border: 20px solid rgb(43,129,172);
     background-color: rgb(51,153,204);
     max-width: 1440px;
+<<<<<<< HEAD
     min-height: 900px;
+=======
+    min-height: 1000px;
+>>>>>>> main
     height: 100%;
     width: 95%;
     margin: 0 auto;
