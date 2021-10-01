@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230,230,230);
+    font-family: 'Neue Hans Kendrick', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1120px;
+    min-height: 1400px;
+    background-color: rgb(230,230,230);
+}
+
+.bigimg {
+    background-image:linear-gradient(0deg, rgba(0,29,35,0.8) 20%, rgba(0,212,255,0) 100%), url(car.jpg);
+    width: 740px;
+    height: 540px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    margin-bottom: 30px;
+    height: 540px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.img1 {
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.img2 {
+    background-image: url(2.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.img3 {
+    background-image: url(3.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.img4 {
+    background-image: url(4.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.overimg {
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    width: 360px;
+    text-transform: uppercase;
+}
+.date1 {
+    color: rgb(180,180,180);
+    position: absolute;
+    bottom: 130px;
+    left: 30px;
+    text-transform: uppercase;
+}
+
+.date {
+    text-transform: uppercase;
+    color: rgb(200, 200, 200);
+    position: absolute;
+    left: 20px;
+    top: 270px;
+}
+.cardimg {
+    display: block;
+}
+
+h2 {
+    width: 308px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
+
+.face {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-image: url(face.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.loading {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
