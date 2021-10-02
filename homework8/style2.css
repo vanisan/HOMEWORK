@@ -8,7 +8,7 @@ html,body {
     width: 100%;
     height: 100%;
     background-color: rgb(230,230,230);
-    font-family: 'Neue Hans Kendrick', sans-serif;
+    font-family: "HansKendrick-Regular"; 
 }
 
 
@@ -126,3 +126,10 @@ h2 {
     font-size: 20px;
     color: rgb(110, 110, 110);
 }
+
+@font-face {
+    font-family: "HansKendrick-Regular"; 
+    src: url(fonts/HansKendrick-Regular.woff) format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
