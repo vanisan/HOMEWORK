@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(176,124,247);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1160px;
+    min-height: 650px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    padding-bottom: 26px;
+}
+
+.text {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 46px;
+    font-size: 16px;
+    max-width: 58ch;
+    word-spacing: 1.5px;
+    line-height: 24px;
+}
+
+.card { 
+    position: relative;
+}
+
+.card1 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, .7) 10%, rgba(255,255,255,0)100%), url(img1.png);
+    height: 310px;
+    width: 370px;
+}
+
+.card2 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, .7) 10%, rgba(255,255,255,0)100%), url(img2.png);
+    height: 310px;
+    width: 370px;
+}
+
+.card3 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, .7) 10%, rgba(255,255,255,0)100%), url(img3.png);
+    height: 310px;
+    width: 370px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 52px;
+}
+
+.date {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-radius: 6px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0,0,0, .4);
+    line-height: 30px;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.month {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    height: 56px;
+    width: 202px;
+    background-color: rgb(247,43,59);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    box-shadow: rgb(87, 87, 87) 2px 2px;
+}
+
+.author {
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+}
+
+h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    width: 320px;
+    padding-bottom: 24px;
+}
+
+.subtext {
+    position: relative;
+    top: 204px;
+    left: 18px;
+}
+
