@@ -107,6 +107,10 @@ button {
     box-shadow: rgb(87, 87, 87) 2px 2px;
 }
 
+button:hover {
+    background-color: rgb(222,36,46);
+}
+
 .author {
     text-align: left;
     color: #fff;
