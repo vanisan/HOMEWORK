@@ -1,0 +1,137 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-image: url(/homework11/imgstr.jpg);
+  background-position: top -26px right 64px;
+  position: relative;
+  padding-top: 8px;
+  width: 1500px;
+  min-height: 976px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header__sticky {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  padding-top: 18px;
+  padding-left: 100px;
+  margin-right: 446px;
+}
+
+.header__nav {
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav a {
+  padding-top: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  border-top: 4px solid transparent;
+}
+
+.header__nav a:hover {
+  border-top: 4px solid #f90;
+  transition: ease;
+}
+
+.text1 {
+  position: absolute;
+  top: 324px;
+  left: 96px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 70px;
+  left: 674px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  padding-bottom: 14px;
+}
+
+.text1__sub {
+  width: 380px;
+  font-size: 18px;
+  padding-bottom: 30px;
+  line-height: 26px;
+}
+
+.text2__sub2 {
+  width: 500px;
+  line-height: 28px;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 56px;
+  background-color: #ff6033;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 20px;
+  word-spacing: 0px;
+}
+
+.btn1:hover {
+  background-color: #ffffff;
+  border: #ff6033 3px solid;
+  color: #ff6033;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  width: 1500px;
+  max-width: 95%;
+  min-height: 700px;
+  margin: 0 auto;
+  background-color: #00b4b4;
+}
+
+.main__img img {
+  position: absolute;
+  top: 34px;
+  left: 46px;
+}
+
+.main__text2 {
+  top: 160px;
+  left: 768px;
+  position: absolute;
+  width: 440px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 92px;
+  padding-bottom: 6px;
+}
