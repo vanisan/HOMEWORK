@@ -11,7 +11,7 @@ body, html {
 }
 
 .header {
-  background-image: url(/homework11/imgstr.jpg);
+  background-image: url(../homework11/imgstr.jpg);
   background-position: top -26px right 64px;
   position: relative;
   padding-top: 8px;
