@@ -1,0 +1,136 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  background-color: white;
+}
+
+.form {
+  padding-top: 48px;
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  background-image: url(formbg.jpg);
+  background-size: cover;
+}
+
+.form__container {
+  margin: 0 auto;
+  width: 65%;
+  height: 80%;
+}
+
+.form__top a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 26px;
+  border-bottom: 2px rgba(255, 255, 255, 0);
+  padding-bottom: 6px;
+}
+
+.form__top a:hover {
+  border-bottom: 2px red solid;
+}
+
+.form__inputs input {
+  background-color: transparent;
+  border: 2px solid gainsboro;
+  height: 44px;
+}
+
+.form__inputs {
+  height: 210px;
+  padding-top: 46px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 500;
+}
+
+.form__check {
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  content: " ";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #B0B0B0;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: baseline;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #808080;
+}
+
+input[type=checkbox]:checked .check {
+  content: "✔";
+  background-color: #23ae92;
+}
+
+.form__check label {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.form__button {
+  padding-top: 44px;
+}
+
+.button__btn1 {
+  word-spacing: 6px;
+  background-color: #23ae92;
+  width: 260px;
+  height: 40px;
+  border: none;
+  color: #fff;
+}
+
+.button__btn1:hover {
+  background-color: #2bcfaf;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+.form__additional {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__additional a {
+  text-decoration: none;
+  border-bottom: 1px solid #646464;
+  padding-bottom: 2px;
+  color: #c8c8c8;
+  font-size: 14px;
+}

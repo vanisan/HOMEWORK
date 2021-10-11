@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.formblock {
+    position: relative;
+    text-align: center;
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url(img.jpg);
+    height: 864px;
+}
+
+h1 {
+    text-align: center;
+    width: 600px;
+    padding-top: 78px;
+    font-size: 90px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.subinfo {
+    font-size: 20px;
+    padding-bottom: 16px;
+    line-height: 24px;
+}
+
+.formblock__subtext {
+    padding-top: 24px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 370px;
+    line-height: 26px;
+}
+
+.formblock__content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+
+.content__forms {
+    position: absolute;
+    top: 290px;
+    left: 166px;
+    width: 498px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    padding-left: 24px;
+    background-color: rgb(0,196,196, 0.5);
+    border-left: 4px rgb(0,196,196, 0.5) solid;
+    border: none;
+    width: 498px;
+    height: 48px;
+    color: #fff;
+}
+
+.input__one {
+    background-color: rgb(0,196,196, 0.5);
+    border-left: 4px rgb(0,196,196, 0.5) solid;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+
+}
+
+input:hover {
+    background-color: rgb(0,196,196, 0.5);
+    border-left: 4px rgb(0, 95, 95) solid;
+}
+
+.input__four {
+    background-color: rgb(0,196,196, 0.5);
+    border-left: 4px rgb(0,196,196, 0.5) solid;
+    resize: none;
+    padding-left: 24px;
+    padding-top: 14px;
+    display:block;
+    width: 498px;
+    height: 244px;
+    color: #fff;
+}
+
+.input__four:hover {
+    background-color: rgb(0,196,196, 0.8);
+    border-left: 4px rgb(0, 95, 95) solid;
+}
+  
+.content__info {
+    position: relative;
+    top: 36px;
+    right: -338px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(56, 52, 52);
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 92px;
+    color: #fff;
+    padding-left: 168px;
+    padding-right: 140px;
+}
+
+.footer__rights {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 100;
+    left: 164px;
+    top: 34px;
+}
+
+.footer__logo {
+    position: relative;
+    top: 32px;
+    left: -12px;
+    height: 30px;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__link {
+    position: absolute;
+    right: 154px;
+    top: 34px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.color {
+    color: red;
+    font-weight: 300;
+}
+
+.btn {
+    margin: 0 auto;
+    width: 150px;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background-color: rgba(39, 169, 209,);
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+}
