@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    padding-top: 288px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1920px;
+    height: 1072px;
+    max-width: 95%;
+    background-image: url(hero-bg.jpg);
+    color: #fff;
+}
+
+.header__logo {
+    padding-bottom: 76px;
+}
+
+h3 {
+    margin: 0 auto;
+    width: 640px;
+    font-size: 50px;
+    word-spacing: 6px;
+    letter-spacing: 10px;
+    line-height: 64px;
+}
+
+.header__subtext {
+    text-transform: uppercase;
+    word-spacing: 4px;
+    line-height: 28px;
+    padding-top: 36px;
+    width: 540px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.header__icon {
+    padding-top: 240px;
+    margin: 0 auto;
+}
+
+.about {
+    padding-top: 144px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1920px;
+    height: 630px;
+    max-width: 95%;
+}
+
+.h2_1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #000;
+    margin: 0 auto;
+    font-size: 34px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.about__box {
+    padding-top: 52px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    height: 330px;
+    border: #000 1px solid;
+    font-size: 16px;
+}
+
+.about__text1 {
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 550px;
+    line-height: 22px;
+}
+
+.about__text2 {
+    margin: 0 auto;
+    width: 450px;
+    max-width: 80ch;
+    line-height: 24px;
+}
+
+.services {
+    padding-top: 112px;
+    text-align: center;
+    background-image: url(servicesbg.jpg);
+    margin: 0 auto;
+    width: 1920px;
+    height: 488px;
+    max-width: 95%;
+}
+
+.h2_2 {
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0 auto;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.services__box {
+    padding-top: 54px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    height: 272px;
+    border: #fff 1px solid;
+
+}
+
+.services__text {
+    word-spacing: 2px;
+    color: #fff;
+    margin: 0 auto;
+    width: 530px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.whatwedo {
+    padding-top: 104px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1920px;
+    height: 1416px;
+    max-width: 95%;
+}
+
+.h2_3 {
+    padding-left: 78px;
+    padding-right: 78px;
+    color: #000;
+    margin: 0 auto;
+    font-size: 34px;
+    letter-spacing: 5px;
+}
+
+.whtawedo__box {
+    padding-top: 108px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    height: 1200px;
+    border: #000 1px solid;
+}
+
+.whatwedo__items {
+    margin: 0 auto;
+    width: 530px;
+}
+
+.design {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.h3_1 {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.design__text {
+    text-align: center;
+    line-height: 26px;
+    word-spacing: 4px;
+    padding-top: 4px;
+    margin: 0 auto;
+    padding-bottom: 54px;
+    width: 530px;
+    font-size: 12px;
+}
+
+.development {
+    padding-bottom: 50px;
+}
+
+.h3_2 {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.development__text {
+    text-align: center;
+    line-height: 26px;
+    word-spacing: 4px;
+    padding-top: 8px;
+    margin: 0 auto;
+    padding-bottom: 44px;
+    width: 530px;
+    font-size: 12px;
+}
+
+.product {
+}
+
+.h3_3 {
+    padding-top:14px;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+
+.product__text {
+    text-align: center;
+    line-height: 26px;
+    word-spacing: 4px;
+    padding-top: 14px;
+    margin: 0 auto;
+    padding-bottom: 54px;
+    width: 530px;
+    font-size: 12px;
+}
+
+.iconsroll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1920px;
+    height: 490px;
+    max-width: 95%;
+    color: #fff;
+}
+
+.icon__icofirst {
+    position: relative;
+    background-image: url(topworkz.jpg);
+    background-size: cover;
+    width: 548px;
+    height: 236px;
+}
+
+.icotext {
+    position: absolute;
+    bottom: 34px;
+    left: 40px;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.icon__icosecond {
+    position: relative;
+    background-image: url(joint.jpg);
+    background-size: cover;
+    width: 798px;
+    height: 236px;
+}
+
+.icon__icothird {
+    position: relative;
+    background-image: url(market.jpg);
+    background-size: cover;
+    width: 548px;
+    height: 236px;
+}
+
+.icon__icofourth {
+    position: relative;
+    background-image: url(worktop.jpg);
+    background-size: cover;
+    width: 548px;
+    height: 236px;
+}
+
+.icon__icofifth {
+    position: relative;
+    background-image: url(lable.jpg);
+    background-size: cover;
+    width: 798px;
+    height: 236px;
+}
+
+.icon__icosixth {
+    position: relative;
+    background-image: url(kyiv.jpg);
+    background-size: cover;
+    width: 548px;
+    height: 236px;
+}
+
+.h2_3 {
+    padding-left: 92px;
+    padding-right: 92px;
+    margin: 0 auto;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.contact {
+    padding-top: 114px;
+    margin: 0 auto;
+    width: 1920px;
+    height: 450px;
+    max-width: 95%;
+}
+
+.h2_4 {
+    padding-top: 18px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin: 0 auto;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.contact__box {
+    padding-top: 50px;
+    word-spacing: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    height: 314px;
+    border: #000 1px solid;
+}
+
+.contact__text {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.contact__btn {
+    width: 400px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    word-spacing: 6px;
+    font-size: 16px;
+}
+
+.footer {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1920px;
+    height: 100px;
+    max-width: 95%;
+}
+
+.footer__logo {
+    transform: scale(0.375);
+}
+
+.footer__rights {
+    font-size: 14px;
+}
