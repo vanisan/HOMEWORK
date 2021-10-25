@@ -6,36 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cahee blog</title>
     <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/responsive.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
     </style>
 </head>
 
-<body class="cahee">
+<body>
+    <div id="mobile_menu_wrap">
+        <div class="sidemenu_top">
+            <div class="mobile_logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <button class="hamburger hamburger--slider is-active" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+        </div>
+        <nav class="sidemenu">
+            <ul> 
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul> 
+        </nav>
+    </div>
+    <div id="page_overlay">
+
+    </div>
+
+
+
+
     <div class="header">
         <div class="header__sticky">
             <div class="header__logo">
                 <img src="logo.png" alt="Logo">
             </div>
             <div class="header__nav">
-                <div class="nav__items"></div>
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SERVICES</a>
-                <a href="#">GALLERY</a>
-                <a href="#">BLOG</a>
-                <a href="#">CONTACT</a>
+                <ul> 
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul> 
+            </div>
+            <div id="hamburger_menu">
+                <button class="hamburger hamburger--slider " type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
             </div>
         </div>
-        <div class="text1">
-            <h1 class="headerh1">
-                Fresh Life
-            </h1>
-            <div class="text1__sub">
-                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </div>
-            <div class="text1__button">
-                <button class="btn1">GET FREE NOW</button>
+        <div class="flex__text">
+            <div class="text1">
+                <h1 class="headerh1">
+                    Fresh Life
+                </h1>
+                <div class="text1__sub">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </div>
+                <div class="text1__button">
+                    <button class="btn1">GET FREE NOW</button>
+                </div>
             </div>
         </div>
         <div class="scroll">
@@ -253,7 +293,7 @@
                     <input class="input__one" id="" type="text" name="name" placeholder="Your email...">
                     <input class="input__one" id="" type="text" name="name" placeholder="Your phone number...">
                     <textarea placeholder="Your message..." class="input__four"></textarea>
-                    <button>SUBMIT</button>
+                    <button class="greenbtn">SUBMIT</button>
                 </form>
             </div>
             <div class="content__info">
@@ -291,6 +331,14 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $(".hamburger").on('click', function(){
+                $("body").toggleClass("open");
+            });
+        });
+    </script>
 
 </body>
 </html>
