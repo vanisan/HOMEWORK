@@ -1,0 +1,15 @@
+main {
+    min-height: 900px;
+}
+
+header .fas {
+    margin-right: 10px;
+}
+
+.d-flex .flex-column .fas, .far {
+    margin-right: 10px;
+}
+
+.hometasks .fas {
+    margin-right: 10px;
+}
