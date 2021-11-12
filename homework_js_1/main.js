@@ -63,7 +63,7 @@ function symbolsGet(){
 Условие из 3 неравеностей перебирает переменную как массив(я так понимаю) на наличии равности значений.Осчет с 0! )))
 */
 function checkNum(){
-    let chknum = prompt('Type the number between 100 to 999 (icludingly)');
+    let chknum = prompt('Type the number between 100 to 999 (includinly)');
     if (chknum[0] == chknum[1] || chknum[0] == chknum[2] || chknum[1] == chknum[2])
     {
         alert('same chars FOUND');
