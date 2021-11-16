@@ -48,4 +48,77 @@ function letCount(){
     alert(String(a).length);
 }
 /*task5*/
+function statistic(){
+    let a = 0, b = 0;
+let N = prompt("введите 10 чисел: ", );
+if(N){
+    N.split(" ").map(function(s){
+        var num = parseInt(s);
+        if(num !== NaN){
+            if (num > 0 && num != 0){ a++; }
+            else { b++; } 
+        }
+    });
+}
+if(a>0){
+    alert("Количество положительных: " + a);
+}
+else{
+    alert("Положительных чисел нет"); 
+}
+if(a>0){
+    alert("Количество отрицательных: " + b);
+}
+else {
+    alert("Отрицательных чисел нет");
+}
+}
+/*task6*/
+function calcCyc(){
+    while (true) {
+        let a = +prompt('Введите первое число');
+        let b = +prompt('Введите второе число');
+        let sign = prompt('Выберете знак - + / *');
+        let action = {
+          '+': () => a + b,
+          '-': () => a - b,
+          '/': () => a / b,
+          '*': () => a * b
+        }[sign];
+        if (action) alert(action());
+       
+        if (!confirm('Хотите ли вы решить еще один пример?')) break;
+      }
+}
+/*task7*/
+function arrShift(){
+    let count = prompt('Введите число')
+    let a = prompt('steps of shift')
+    arr = count.split``;
+ 
+for(let i = 0; i < count; i++) arr.push(arr.shift(a));
+alert(arr.join``);
+}
+/*task8*/
+function nextDay(){
+    let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    let currDay = 0;
+    while (confirm(`${days[currDay]}. Wanna to see the next day?`)) {
+        currDay = (currDay + 1) % days.length;
+    }
+}
+/*task9*/
+
+/*task10*/
+/*function fn(b, d) {
+    function e() {
+        let a = b + Math.random() * (d + 1 - b) | 0,
+            c = prompt("Your number (big/small/yes) than. (to ESC print yes) " + a + "?");
+        "yes" == c ? alert(a + "YOURS NUMBER!!!") : ("bigger" == c && (b = a), "smaller" == c && (d = a), e())
+    }
+    e()
+};
+fn(1,100)*/
+
+
 
