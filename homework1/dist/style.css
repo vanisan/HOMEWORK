@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 1200px;
+}
+
+.tnelements {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.logo_block {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo_block img {
+  width: 30px;
+  height: 30px;
+}
+.logo_block h2 {
+  padding-left: 10px;
+}
+
+.tne_sub {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.tne_sub img {
+  width: 30px;
+  height: 30px;
+}
+
+.topnav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.header {
+  height: 260px;
+  background-color: rgba(180, 230, 220, 0.6);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  padding-left: 10px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.photo {
+  width: 130px;
+  height: 130px;
+}
+.photo img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  border: 3px #1c996f solid;
+}
+.photo img:hover {
+  border: 5px #18d46d solid;
+  transform: scale(1.2);
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+.info {
+  width: 300px;
+  height: 80%;
+}
+.info .name_profile {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info .name_profile .name_b {
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: rgba(30, 190, 160, 0.6);
+  color: #fff;
+  border: none;
+}
+.info .name_profile .name_b:hover {
+  background-color: rgba(20, 170, 140, 0.6);
+  cursor: pointer;
+}
+.info .inf_about {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 6px;
+}
+.info .inf_about .age_gen {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.hnav ul {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.hnav ul li {
+  width: 60px;
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  background-color: #f0f0f0;
+}
+.main .main_content {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+.main .main_content .post {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.f_content {
+  text-align: center;
+  padding-top: 10px;
+}
