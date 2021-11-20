@@ -1,3 +1,4 @@
+/*сложно.буду дописывать*/ */
 /*TASK1*/
 function compare(){
     let a=parseInt(prompt('Put the first number)'));
@@ -73,15 +74,27 @@ function perfNum(){
 }
 /*TASK6*/
 function randInt(){
-    let a=parseInt(prompt('1'));
-    let b=parseInt(prompt('1'));
-    function getRandomArbitrary(a, b) {
+    let a = parseInt(prompt('1'));
+    let b = parseInt(prompt('2'));
+    getRandomArbitrary(a, b) {
         alert(Math.random() * (b - a) + a);
     }
     
 }
 /*TASK7*/
-
+function setTime(h) {
+let a = parseInt(prompt('Put the hours'));
+let b = parseInt(prompt('Put the minutes'));
+let c = parseInt(prompt('Put the seconds'));
+if (a<10){
+    a=0+a;
+}
+if (b<10){
+    a=0+a;
+}
+if (c<10){
+    a=0+a;
+}
 /*TASK8*/
 
 /*TASK9*/
